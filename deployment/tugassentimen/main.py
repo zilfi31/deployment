@@ -3,11 +3,11 @@ import joblib
 import time
 
 # define model requirement
-model =  joblib.load("/Volumes/Data/deployment/tugassentimen/naive_bayes.joblib")
-vectorizer = joblib.load("/Volumes/Data/deployment/sentimen/vectorizer.joblib")
+model =  joblib.load("naive_bayes.joblib")
+vectorizer = joblib.load("vectorizer.joblib")
 
 st.title("Sentimen Analisis Twitter Dataset")
-st.write("Sentimen Analisis dengan menggunakan dataset twwitter Pilkada Gubernur DKI Jakarta tahun 2017")
+st.write("Sentimen Analisis dengan menggunakan dataset twitter Pemilu tahun 2024")
 
 
 with st.container():
